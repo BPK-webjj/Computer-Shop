@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Outfit", serif;
+    scroll-behavior: smooth;
+    font-weight: 600s;
+}
+
+body {
+    background-color: #CEDBD9;
+}
+
+.back a {
+    color: black;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+section {
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+
+}
+
+.form {
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    background-color: white;
+    margin: auto;
+    width: 400px;
+    border: solid 1px gray;
+}
+
+.input {
+    font-size: 24px;
+    padding: 20px 0px 14px 0px;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+.in {
+    width: 90%;
+    height: 35px;
+}
+
+.input-group {
+    padding-left: 34px;
+    margin-bottom: 7px;
+}
+
+button {
+    width: 85%;
+    margin-bottom: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 8px;
+    
+}
+
+.inputR {
+    text-align: center;
+    
+}
+
+.inputb {
+    padding-left: 27px;
+    margin-bottom: 7px;
+}
+
+.inputA {
+    padding: 10px 0px 20px 28px;
+}
+
+.terms {
+    color: blueviolet;
+}
+    </style>
+
+</head>
+<body>
+
+    <section>
+        <div class="back"><a href="index.html">Back To Home Page <i class="fa-solid fa-angles-left"></i></a></div>
+    <div class="form">
+        <div class="input">
+            Sign Up
+        </div>
+        <div class="input-group">
+            <label for="">Username :</label>
+            <input type="text" class="in">
+        </div>
+        <div class="input-group">
+            <label for="">Email :</label>
+            <input type="email" class="in">
+        </div>
+        <div class="input-group">
+            <label for="">Password:</label>
+            <input type="password" class="in">
+        </div>
+        <div class="input-group">
+            <label for="">Password Again :</label>
+            <input type="password" class="in">
+        </div>
+        <div class="inputb">
+            <input type="checkbox"> I agree with <span class="terms">terms of service</span>
+        </div>
+        <div class="inputR">
+            <button>Register</button>
+
+        </div>
+        <div class="inputA">
+            Already a member? <span class="terms" class="terms"><a href="login.html">Login here</a></span>
+        </div>
+    </div>
+</section>
+</body>
+</html>
